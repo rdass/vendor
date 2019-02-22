@@ -1,4 +1,4 @@
-package com.portal.scaboard.config;
+package com.portal.vendor.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

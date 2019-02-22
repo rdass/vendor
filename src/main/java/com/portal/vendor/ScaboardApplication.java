@@ -1,4 +1,4 @@
-package com.portal.scaboard;
+package com.portal.vendor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

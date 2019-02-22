@@ -1,4 +1,4 @@
-package com.portal.scaboard.config;
+package com.portal.vendor.config;
 
 import javax.annotation.Resource;
 import javax.servlet.Filter;

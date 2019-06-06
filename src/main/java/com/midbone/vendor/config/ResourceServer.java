@@ -1,4 +1,4 @@
-package com.portal.vendor.config;
+package com.midbone.vendor.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

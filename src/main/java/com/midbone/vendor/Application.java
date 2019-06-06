@@ -1,12 +1,12 @@
-package com.portal.vendor;
+package com.midbone.vendor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ScaboardApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ScaboardApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 }

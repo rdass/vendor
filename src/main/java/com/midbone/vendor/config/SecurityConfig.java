@@ -1,4 +1,4 @@
-package com.portal.vendor.config;
+package com.midbone.vendor.config;
 
 import javax.annotation.Resource;
 import javax.servlet.Filter;
@@ -25,7 +25,8 @@ import org.springframework.web.filter.CorsFilter;
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
-	@Resource(name = "userService")
+
+	@Resource(name = "userDetailsService")
 	private UserDetailsService userDetailsService;
 
 	@Override
